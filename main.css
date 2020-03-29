@@ -32,7 +32,9 @@ p{
   grid-row: 2 / span 2;
   text-align: center;
 }
-
+a{
+  text-decoration: none;
+}
 }
 @media screen and (min-width: 700px){
 
@@ -67,6 +69,5 @@ p{
   -webkit-text-stroke-color: red
 }
 a{
-
-}
+  text-decoration: none;}
 }
