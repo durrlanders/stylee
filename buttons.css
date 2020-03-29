@@ -30,13 +30,11 @@
     margin: 0px;
     padding: 0px;
   }
-  .text{
+p{
   grid-column-end: span 1;
     grid-row: 1 / span 4;
   text-align: center;
   margin-top: 4vh;
-
-
   }
   .dontclick{
     grid-column-end: span 1;
@@ -101,7 +99,7 @@ body{
   margin: 0px;
   padding: 0px;
 }
-.text{
+p{
 grid-column: 1 / span 12;
 grid-row: 1 / span 2;
 margin-top: 10vh;
