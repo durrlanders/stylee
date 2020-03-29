@@ -15,24 +15,24 @@ body{
   background-repeat: repeat;
   background-position: center top;
   background-size: 75vmin;
+  font-size: 21vmin;
   margin: 0px;
   padding: 0px;
-  width: 100vw;
-  height: 100vh;
+}
+*{
+  font-family: cooper-black-std;
+  color: blue;
+  -webkit-text-stroke-width: .54vmin;
+  -webkit-text-stroke-color: red;
+  margin: 0px;
+  padding: 0px;
 }
 p{
   grid-column: 1;
   grid-row: 2 / span 2;
   text-align: center;
-  color: blue;
-  font-family: cooper-black-std;
-  font-size: 21vmin;
-  -webkit-text-stroke-width: .6vmin;
-  -webkit-text-stroke-color: red;
 }
-a{
 
-}
 }
 @media screen and (min-width: 700px){
 
