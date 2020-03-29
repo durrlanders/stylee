@@ -1,0 +1,126 @@
+@media screen and (max-width: 1200px){
+
+  .maincontainer{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(6,1fr);
+    grid-row-gap: 0vh;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 2vh;
+      margin-bottom: 6vh;
+}
+body{
+  background-image: url("https://fanboydestroy.files.wordpress.com/2015/11/please-stand-by.jpg");
+  background-repeat: repeat;
+  background-position: center top;
+    background-attachment: fixed;
+  background-size: 120vmin;
+  margin: 0px;
+  padding: 0px;
+}
+iframe {
+  width: 82vw;
+  height: 65vw;
+justify-self: center;
+}
+
+a{
+  text-decoration: none;
+}
+.one{
+  grid-row: 1;
+    margin-top: 5vh;
+}
+.two{
+  grid-row: 2;
+      margin-top: 5vh;
+}
+.three{
+  grid-row: 3;
+      margin-top: 5vh;
+}
+.four{
+  grid-row: 4;
+      margin-top: 5vh;
+}
+.five{
+  grid-row: 5;
+      margin-top: 5vh;
+}
+.six{
+  grid-row: 6;
+      margin-top: 5vh;
+}
+}
+@media screen and (min-width: 1200px){
+  body {
+    margin: 0px;
+    padding: 0px;
+    font-family: arial Black;
+    color: white;
+    font-size: 20vmin;
+    background-image: url("https://fanboydestroy.files.wordpress.com/2015/11/please-stand-by.jpg");
+    background-repeat: cover;
+    background-size: 100vmin;
+  }
+  iframe {
+    height: 100vmin;
+  }
+
+  .maincontainer {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+
+  }
+  .one {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20vmin;
+  padding-right: 20vmin;
+  padding-top: 13vmin;
+  padding-bottom: 7vmin;
+  }
+  .two {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20vmin;
+  padding-right: 20vmin;
+  padding-top: 7vmin;
+  padding-bottom: 7vmin;
+  }
+  .three {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20vmin;
+  padding-right: 20vmin;
+  padding-top: 7vmin;
+  padding-bottom: 7vmin;
+  }
+  .four {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20vmin;
+  padding-right: 20vmin;
+  padding-top: 7vmin;
+  padding-bottom: 7vmin;
+  }
+  .five {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20vmin;
+  padding-right: 20vmin;
+  padding-top: 7vmin;
+  padding-bottom: 7vmin;
+  }
+  .six {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20vmin;
+  padding-right: 20vmin;
+  padding-top: 7vmin;
+  padding-bottom: 7vmin;
+  }
+}

@@ -1,0 +1,69 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: arial Black;
+  color: white;
+  font-size: 20vmin;
+  background-image: url("https://fanboydestroy.files.wordpress.com/2015/11/please-stand-by.jpg");
+  background-repeat: cover;
+  background-size: 100vmin;
+}
+iframe {
+  height: 100vmin;
+}
+
+.maincontainer {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  margin: 0px;
+
+}
+.one {
+display: flex;
+flex-direction: column;
+padding-left: 20vmin;
+padding-right: 20vmin;
+padding-top: 13vmin;
+padding-bottom: 7vmin;
+}
+.two {
+display: flex;
+flex-direction: column;
+padding-left: 20vmin;
+padding-right: 20vmin;
+padding-top: 7vmin;
+padding-bottom: 7vmin;
+}
+.three {
+display: flex;
+flex-direction: column;
+padding-left: 20vmin;
+padding-right: 20vmin;
+padding-top: 7vmin;
+padding-bottom: 7vmin;
+}
+.four {
+display: flex;
+flex-direction: column;
+padding-left: 20vmin;
+padding-right: 20vmin;
+padding-top: 7vmin;
+padding-bottom: 7vmin;
+}
+.five {
+display: flex;
+flex-direction: column;
+padding-left: 20vmin;
+padding-right: 20vmin;
+padding-top: 7vmin;
+padding-bottom: 7vmin;
+}
+.six {
+display: flex;
+flex-direction: column;
+padding-left: 20vmin;
+padding-right: 20vmin;
+padding-top: 7vmin;
+padding-bottom: 7vmin;
+}
