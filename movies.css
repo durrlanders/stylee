@@ -14,7 +14,8 @@ body{
   background-image: url("https://fanboydestroy.files.wordpress.com/2015/11/please-stand-by.jpg");
   background-repeat: repeat;
   background-position: center top;
-    background-attachment: fixed;
+  background-attachment: fixed;
+        -webkit-backface-visibility: visible; 
   background-size: 120vmin;
   margin: 0px;
   padding: 0px;
