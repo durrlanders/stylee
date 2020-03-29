@@ -15,7 +15,6 @@ body{
   background-repeat: repeat;
   background-position: center top;
   background-attachment: fixed;
-        -webkit-backface-visibility: visible; 
   background-size: 120vmin;
   margin: 0px;
   padding: 0px;
