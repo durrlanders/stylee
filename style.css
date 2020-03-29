@@ -1,0 +1,135 @@
+
+@media screen and (max-width: 700px){
+
+  .maincontainer{
+    margin: 0px;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+      grid-template-rows:repeat(10, 1fr);
+
+        justify-items: center;
+    width: 100vw;
+    height: 100vh;
+  }
+  body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("home.gif");
+    background-repeat: repeat;
+    background-position: center top;
+    background-size: 75vmin;
+    font-size: 21vmin;
+    margin: 0px;
+    padding: 0px;
+
+  }
+  *{
+    font-family: cooper-black-std;
+    color: blue;
+    -webkit-text-stroke-width: .54vmin;
+    -webkit-text-stroke-color: red;
+    margin: 0px;
+    padding: 0px;
+  }
+  .text{
+  grid-column-end: span 1;
+    grid-row: 1 / span 4;
+  text-align: center;
+  margin-top: 9vh;
+
+
+  }
+  .dontclick{
+    grid-column-end: span 1;
+    grid-row: 7 / span 2;
+      text-align: center;
+  }
+  .click{
+    grid-column-end: span 1;
+    grid-row: 5 / span 2;
+      text-align: center;
+  }
+  a:link, a:visited {
+    background-color: grey;
+    color: white;
+    padding: 2vmin 3vmin;
+    text-align: center;
+    font-family: arial;
+    font-weight: bold;
+    box-shadow: 0 -1vmin 5vmin 0 #ffffff, 0 6px 20px 0 #ffffff;
+    -webkit-text-stroke-width: 0px;
+    -webkit-text-stroke-color: red;
+    font-size: .5em;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  a:hover, a:active {
+    background-color: red;
+  }
+}
+@media screen and (min-width: 700px) {
+.maincontainer{
+  margin: 0px;
+  padding: 0px;
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+grid-template-rows: repeat(12,1fr);
+  justify-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+body{
+  background-image: url("home.gif");
+  background-repeat: repeat;
+  background-position: center top;
+  background-size: 49vmin;
+  font-size: 16vmin;
+  margin: 0px;
+  padding: 0px;
+  width: 100vw;
+  height: 100vh;
+}
+
+*{
+
+  font-family: cooper-black-std;
+  color: black;
+  -webkit-text-stroke-width: .4vmin;
+  -webkit-text-stroke-color: red;
+  margin: 0px;
+  padding: 0px;
+}
+.text{
+grid-column: 1 / span 12;
+grid-row: 1 / span 2;
+margin-top: 10vh;
+text-align: center;
+}
+a:link, a:visited {
+  background-color: grey;
+  color: white;
+  padding: 2vmin 3vmin;
+  text-align: center;
+  font-family: arial;
+  font-weight: bold;
+  box-shadow: 0 -1vmin 5vmin 0 #ffffff, 0 6px 20px 0 #ffffff;
+  -webkit-text-stroke-width: 0px;
+  -webkit-text-stroke-color: red;
+  font-size: .45em;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+.dontclick{
+  grid-column: 1 / span 12;
+  grid-row: 8 / span 2;
+}
+.click{
+  grid-column: 1 / span 12;
+  grid-row: 5 / span 2;
+}}
